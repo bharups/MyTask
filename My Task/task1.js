@@ -3,7 +3,7 @@ describe("My Test Suite", () => {
         await browser.url("https://www.saucedemo.com/");
         const data=require('./Logindata.json');
         for( var i=0; i<data.length; i++){
-            try{
+           
             var element=await browser.$('//input[@id="user-name"]');
             await element.waitForExist({timeout:5000});
             await element.setValue(data[i].username);
@@ -20,12 +20,7 @@ describe("My Test Suite", () => {
             await element.waitForExist({timeout:5000});
             await element.click();
             console.log('logged in successfully for the user '+ data[i].username)
-            }
-            catch(error)
-            {
-              
-              console.log('Unable to login for the user '+ data[i].username)
-            }
+           
 
         }
         
