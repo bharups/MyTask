@@ -14,9 +14,10 @@ describe("My Test Suite", () => {
             await element.waitForExist({timeout:5000});
             await element.click();
              element=await browser.$('//button[text()="Open Menu"]');
-            await element.click();
             await element.waitForExist({timeout:5000});
+            await element.click();
              element=await browser.$('//a[text()="Logout"]');
+            await element.waitForExist({timeout:5000});
             await element.click();
             console.log('logged in successfully for the user '+ data[i].username)
             }
