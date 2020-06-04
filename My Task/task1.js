@@ -1,3 +1,5 @@
+const allurereport = require('@wdio/allure-reporter').default;
+allurereport.addStep('Login Success for valid username and password');
 describe("My Test Suite", () => {
     it("LoginSuccess", async() =>{
         //launh the URl
@@ -24,6 +26,7 @@ describe("My Test Suite", () => {
            
 
         }
+        
         
        
     })

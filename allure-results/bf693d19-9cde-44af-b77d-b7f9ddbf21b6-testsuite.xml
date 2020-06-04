@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591252342359' stop='1591252365523'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591252342361' status='failed' stop='1591252365522'>
+            <name>LoginSuccess</name>
+            <title>LoginSuccess</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: allurereport.addStep is not a function</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\task1.js:28:22)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

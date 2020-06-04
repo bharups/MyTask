@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "My Test Suite",
+    "children" : [ {
+      "name" : "LoginSuccess",
+      "uid" : "7dd5d44e9c60129c",
+      "parentUid" : "1b9f917ee9df6f989b417e8e2d663775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591259678153,
+        "stop" : 1591259721312,
+        "duration" : 43159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1b9f917ee9df6f989b417e8e2d663775"
+  } ]
+}
