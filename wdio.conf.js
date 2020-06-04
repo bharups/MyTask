@@ -18,7 +18,7 @@ exports.config = {
     //
     specs: [
         './My Task/task1.js',
-        './My Task/task2.js'
+        
     ],
     // Patterns to exclude.
     exclude: [
