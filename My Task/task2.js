@@ -16,7 +16,7 @@ describe("My Test Suite", () => {
              element=await browser.$('//input[@type="submit"]');
             await element.waitForExist({timeout:5000});
             await element.click();
-             element=await browser.$('/html/body/div[2]/div[1]/div[1]/div/form/h3');     //find the error message element
+             element=await browser.$('//input[@value="LOGIN"]/following-sibling::h3[text()="Epic sadface: Sorry, this user has been locked out."]');     //find the error message element
             await element.waitForExist({timeout:5000});
             var text=element.getText();                                                 // get the text of the error message
             console.log('User' +data[1].username[i]+ 'not able to login with the error message '+text)  //Print the message
