@@ -1,41 +1,14 @@
+import Object from './pageObject'
 const allurereport = require('@wdio/allure-reporter').default;
 const data=require('./Logindata.json');
 describe("My Test Suite", () => {
     it("Adding to cart and ordering", async() =>{
         await browser.url('https://www.saucedemo.com/');
-        LoginToSauceDemo("standard_user","secret_sauce");
+        Object.LoginToSauceDemo("standard_user","secret_sauce");
         allurereport.addStep('Logged into the application');
-        SelectCheaperProduct();
+        Object.SelectCheaperProduct();
         allurereport.addStep('GotListofProducts');
 
         })
-
-        async function LoginToSauceDemo(username, password)
-        {
-            
-            await browser.setTimeout({ 'implicit': 5000 })
-                var element= await browser.$('//input[@id="user-name"]');      // find the username field
-                await element.waitForExist({timeout:5000});                     //wait for 5 secs for the element to appear
-                await element.setValue(username);                          // Set the username filed with value
-                 element= await browser.$('//input[@id="password"]');          // find the password filed
-                 await element.waitForExist({timeout:5000});
-                 await element.setValue(password);                     //Set the password field with value
-                
-                 element= await browser.$('//input[@type="submit"]');          // find the subit button
-                 await element.waitForExist({timeout:5000});
-                 await element.click();
-        }
-
-        async function SelectCheaperProduct(username, password)
-        {
-            var elemets=await browser.$$('//*[@class="inventory_item_price"]');
-            console.log(elemets);
-            
-        }
-        
-        
-        
-        
-        
          
 })

@@ -51,16 +51,24 @@ describe("My Test Suite", () => {
               }
               }
               var prodIndex=minIndex+1;
-              console.log('Cheapest amount is'+all[minIndex]);
+              var cheapestamount=all[minIndex].toString();
+              console.log('Cheapest amount is'+cheapestamount);
               element= await browser.$('(//*[@class="inventory_item_name"])['+prodIndex+']');
               text= await element.getText();
-              console.log('cheapest item name '+text)
+              var cheapestItemName=text;
+              console.log('cheapest item name '+cheapestItemName)
               element=await browser.$('(//*[@class="btn_primary btn_inventory"])['+prodIndex+']');
               element.click();
             //var element=await browser.$("(//button[text()='ADD TO CART'])[1]");
            // await element.click();
             var element=await browser.$("//div[@id='shopping_cart_container']//a");
             await element.click();
+            element= await browser.$('//*[@class="inventory_item_name"]');
+            text= await element.getText();
+            expect(text).toBe(cheapestItemName);
+            element= await browser.$('//*[@class="inventory_item_price"]');
+            text= await element.getText();
+            
             var element=await browser.$('//a[text()="CHECKOUT"]');
             await element.click();
             var element=await browser.$('//input[@id="first-name"]');
@@ -75,9 +83,24 @@ describe("My Test Suite", () => {
             var element=await browser.$("//input[@value='CONTINUE']");
             await element.waitForExist(2000);
             await element.click();
+            element= await browser.$('//*[@class="summary_subtotal_label"]');
+            text= await element.getText();
+            text=text.split("$");
+            expect(text[1]).toBe(cheapestamount);
+            element= await browser.$('//*[@class="summary_tax_label"]');
+            var tax;
+            tax= await element.getText();
+            console.log('tax is '+tax);
+            element= await browser.$('//*[@class="summary_total_label"]');
+            var total;
+            total= await element.getText();
+            console.log('total is '+total);
             var element=await browser.$('//a[text()="FINISH"]');
             await element.waitForExist(2000);
-            await element.click();   
+            await element.click();
+            element= await browser.$('//*[@class="complete-header"]');
+            text= await element.getText();
+            expect(text).toBe('THANK YOU FOR YOUR ORDER');
             element=await browser.$('//button[text()="Open Menu"]');      //Find openmenu element
             await element.waitForExist({timeout:5000});
             await element.click();                                      //click on open menu
