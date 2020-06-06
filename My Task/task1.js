@@ -23,6 +23,7 @@ describe("My Test Suite", () => {
             await element.waitForExist({timeout:5000});
             await element.click();                                         //click on logout
             console.log('logged in successfully for the user '+ data[0].username[i]);      //print the message
+            
            
 
         }

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591345248906' stop='1591345248922'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591345248907' status='failed' stop='1591345248919'>
+            <name>Adding to cart and ordering</name>
+            <title>Adding to cart and ordering</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591345248908' status='passed' stop='1591345248908'>
+                    <name>Lauched the URL successfully</name>
+                    <title>Lauched the URL successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: element.waitForExist is not a function</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at login (C:\Users\BharathiS\Desktop\MyTask\My Task\task4.js:12:22)
+                    at UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\task4.js:36:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

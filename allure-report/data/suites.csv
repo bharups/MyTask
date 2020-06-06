@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jun 04 14:04:38 IST 2020","Thu Jun 04 14:05:21 IST 2020","43159","","My Test Suite","","My Test Suite","LoginSuccess","LoginSuccess",""
+"passed","Fri Jun 05 18:38:44 IST 2020","Fri Jun 05 18:38:51 IST 2020","6627","","My Test Suite","","My Test Suite","Adding to cart and ordering","Adding to cart and ordering",""
+"failed","Fri Jun 05 17:45:44 IST 2020","Fri Jun 05 17:45:50 IST 2020","5959","","My Test Suite","","My Test Suite","Adding to cart and ordering an item","Adding to cart and ordering an item",""
+"failed","Fri Jun 05 14:11:20 IST 2020","Fri Jun 05 14:12:20 IST 2020","60014","","My Test Suite","","My Test Suite","LoginSuccess","LoginSuccess",""
+"failed","Thu Jun 04 16:15:56 IST 2020","Thu Jun 04 16:16:00 IST 2020","3331","","My Test Suite","","My Test Suite","LoginFailure","LoginFailure",""

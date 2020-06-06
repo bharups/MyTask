@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591363482527' stop='1591363499504'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591363482528' status='failed' stop='1591363499489'>
+            <name>Adding to cart and ordering an item</name>
+            <title>Adding to cart and ordering an item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: waitUntil condition failed with the following reason: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.61)</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.61)
+                    at async UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\Task3.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

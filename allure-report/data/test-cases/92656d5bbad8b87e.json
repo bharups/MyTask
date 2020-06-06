@@ -1,0 +1,58 @@
+{
+  "uid" : "92656d5bbad8b87e",
+  "name" : "LoginSuccess",
+  "fullName" : "My Test Suite.LoginSuccess",
+  "historyId" : "a4276bf2874da1e6556ec9373a5287ea",
+  "time" : {
+    "start" : 1591344789094,
+    "stop" : 1591344822103,
+    "duration" : 33009
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "chrome not reachable: chrome not reachable\n                  (Session info: chrome=83.0.4103.61)",
+  "statusTrace" : "error properties: Object({ statusCode: 500, statusMessage: 'Internal Server Error' })\n                    at <Jasmine>\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task1.js:6:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginSuccess"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92656d5bbad8b87e.json",
+  "parameterValues" : [ "chrome" ]
+}

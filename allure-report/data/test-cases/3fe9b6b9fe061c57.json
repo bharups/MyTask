@@ -1,0 +1,85 @@
+{
+  "uid" : "3fe9b6b9fe061c57",
+  "name" : "Adding to cart and ordering",
+  "fullName" : "My Test Suite.Adding to cart and ordering",
+  "historyId" : "3f69018e3bf9b6a6e3c382f5726dfaa",
+  "time" : {
+    "start" : 1591345248907,
+    "stop" : 1591345248919,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: element.waitForExist is not a function",
+  "statusTrace" : "    at <Jasmine>\n                    at login (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task4.js:12:22)\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task4.js:36:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: element.waitForExist is not a function",
+    "statusTrace" : "    at <Jasmine>\n                    at login (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task4.js:12:22)\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task4.js:36:9)",
+    "steps" : [ {
+      "name" : "Lauched the URL successfully",
+      "time" : {
+        "start" : 1591345248908,
+        "stop" : 1591345248908,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fe9b6b9fe061c57.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591355720996' stop='1591355721051'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591355720997' status='failed' stop='1591355721049'>
+            <name>Adding to cart and ordering an item</name>
+            <title>Adding to cart and ordering an item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unhandled promise rejection: Error: Required option "capabilities" is missing</message>
+                <stack-trace>Error: Required option "capabilities" is missing
+                    at UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\Task3.js:8:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

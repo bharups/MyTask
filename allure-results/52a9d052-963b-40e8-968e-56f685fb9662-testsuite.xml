@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591357532906' stop='1591357581321'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591357532908' status='failed' stop='1591357581320'>
+            <name>Adding to cart and ordering an item</name>
+            <title>Adding to cart and ordering an item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable: chrome not reachable
+                  (Session info: chrome=83.0.4103.61)</message>
+                <stack-trace>error properties: Object({ statusCode: 500, statusMessage: 'Internal Server Error' })
+                    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\Task3.js:7:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+{
+  "uid" : "ccfe2f13faa1cd2d",
+  "name" : "LoginFailure",
+  "fullName" : "My Test Suite.LoginFailure",
+  "historyId" : "6501fa7c9b0db956ab84c671eb722cfb",
+  "time" : {
+    "start" : 1591267128898,
+    "stop" : 1591267132139,
+    "duration" : 3241
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Promise {\n                  <pending>\n                } == 'https://www.saucedemo.com/'",
+  "statusTrace" : "error properties: Object({ generatedMessage: true, code: 'ERR_ASSERTION', actual: [object Promise], expected: 'https://www.saucedemo.com/', operator: '==' })\n                    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task2.js:26:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginFailure"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccfe2f13faa1cd2d.json",
+  "parameterValues" : [ "chrome" ]
+}

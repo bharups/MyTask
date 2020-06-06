@@ -1,0 +1,56 @@
+{
+  "uid" : "658d9e8bfee4f4fe",
+  "name" : "Adding to cart and ordering",
+  "fullName" : "My Test Suite.Adding to cart and ordering",
+  "historyId" : "3f69018e3bf9b6a6e3c382f5726dfaa",
+  "time" : {
+    "start" : 1591345493375,
+    "stop" : 1591345493388,
+    "duration" : 13
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "658d9e8bfee4f4fe.json",
+  "parameterValues" : [ "chrome" ]
+}

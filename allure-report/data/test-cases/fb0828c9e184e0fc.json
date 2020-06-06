@@ -1,0 +1,267 @@
+{
+  "uid" : "fb0828c9e184e0fc",
+  "name" : "Adding to cart and ordering",
+  "fullName" : "My Test Suite.Adding to cart and ordering",
+  "historyId" : "3f69018e3bf9b6a6e3c382f5726dfaa",
+  "time" : {
+    "start" : 1591362524767,
+    "stop" : 1591362531394,
+    "duration" : 6627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logged into the application",
+      "time" : {
+        "start" : 1591362531389,
+        "stop" : 1591362531389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GotListofProducts",
+      "time" : {
+        "start" : 1591362531389,
+        "stop" : 1591362531389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6fee36a69dde75a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591362368057,
+        "stop" : 1591362369750,
+        "duration" : 1693
+      }
+    }, {
+      "uid" : "cf8f9a06c76a00f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591361502136,
+        "stop" : 1591361504747,
+        "duration" : 2611
+      }
+    }, {
+      "uid" : "f3574918f9c867bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591361412008,
+        "stop" : 1591361413966,
+        "duration" : 1958
+      }
+    }, {
+      "uid" : "2580c6496c6cfb09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591355485718,
+        "stop" : 1591355485740,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "d2a1e61a10916782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591354921811,
+        "stop" : 1591354921844,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "f58c2dde1f54bcc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591348836076,
+        "stop" : 1591348836089,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "aa426573a1d2e1e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591348670348,
+        "stop" : 1591348670369,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "46f044fa6115400b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591347938648,
+        "stop" : 1591347938667,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "4ccc5fdda8bf658b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591347831551,
+        "stop" : 1591347831563,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "10f6c6948cea07fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591347752627,
+        "stop" : 1591347752641,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "a72478aa2b287bef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591347053568,
+        "stop" : 1591347053600,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "2c6da5307c331026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591346932434,
+        "stop" : 1591346932446,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "6edeadca13f5aab3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591346887762,
+        "stop" : 1591346887792,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "99673c22e0b842f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591346775567,
+        "stop" : 1591346775584,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "e5a79e764a99f219",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591346577053,
+        "stop" : 1591346577068,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "b85310a56b381784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591346185584,
+        "stop" : 1591346185605,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "b379f0188aa0aa8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591345982558,
+        "stop" : 1591345982580,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "d57fcd7e31a4ac4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591345782490,
+        "stop" : 1591345782511,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "e057ac2d9ac3a637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591345672540,
+        "stop" : 1591345672558,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "658d9e8bfee4f4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591345493375,
+        "stop" : 1591345493388,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "3fe9b6b9fe061c57",
+      "status" : "failed",
+      "statusDetails" : "TypeError: element.waitForExist is not a function",
+      "time" : {
+        "start" : 1591345248907,
+        "stop" : 1591345248919,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb0828c9e184e0fc.json",
+  "parameterValues" : [ "chrome" ]
+}

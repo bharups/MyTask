@@ -1,0 +1,58 @@
+{
+  "uid" : "ff615c82fc3f7b45",
+  "name" : "Adding to cart and ordering an item",
+  "fullName" : "My Test Suite.Adding to cart and ordering an item",
+  "historyId" : "d80a5e1f6bc65a4d1567583534c66dd7",
+  "time" : {
+    "start" : 1591271447472,
+    "stop" : 1591271457355,
+    "duration" : 9883
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <button class=\"btn_primary btn_inventory\">...</button> is not clickable at point (926, 444). Other element would receive the click: <div class=\"bm-overlay\" style=\"position: fixed; z-index: 1000; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); opacity: 1; transition: opacity 0.3s ease 0s;\"></div>\n                  (Session info: chrome=83.0.4103.61)",
+  "statusTrace" : "error properties: Object({ statusCode: 400, statusMessage: 'Bad Request' })\n                    at <Jasmine>\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering an item"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff615c82fc3f7b45.json",
+  "parameterValues" : [ "chrome" ]
+}

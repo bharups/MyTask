@@ -1,0 +1,58 @@
+{
+  "uid" : "ff1c7ef73a8dbac5",
+  "name" : "Adding to cart and ordering an item",
+  "fullName" : "My Test Suite.Adding to cart and ordering an item",
+  "historyId" : "d80a5e1f6bc65a4d1567583534c66dd7",
+  "time" : {
+    "start" : 1591349695410,
+    "stop" : 1591349701534,
+    "duration" : 6124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: element.getText is not a function",
+  "statusTrace" : "    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\Task3.js:21:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering an item"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff1c7ef73a8dbac5.json",
+  "parameterValues" : [ "chrome" ]
+}

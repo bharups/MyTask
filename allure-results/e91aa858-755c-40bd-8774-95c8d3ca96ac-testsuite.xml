@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591264011123' stop='1591264015171'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591264011123' status='failed' stop='1591264015162'>
+            <name>LoginFailure</name>
+            <title>LoginFailure</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>AssertionError: Promise {
+                  &lt;pending>
+                } == 'https://www.saucedemo.com/'</message>
+                <stack-trace>error properties: Object({ generatedMessage: true, code: 'ERR_ASSERTION', actual: [object Promise], expected: 'https://www.saucedemo.com/', operator: '==' })
+                    at &lt;Jasmine>
+                    at UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\task2.js:26:20)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

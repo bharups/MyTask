@@ -1,0 +1,58 @@
+{
+  "uid" : "be05e9fb29f922da",
+  "name" : "LoginFailure",
+  "fullName" : "My Test Suite.LoginFailure",
+  "historyId" : "6501fa7c9b0db956ab84c671eb722cfb",
+  "time" : {
+    "start" : 1591267065183,
+    "stop" : 1591267075405,
+    "duration" : 10222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: element.getattribute is not a function",
+  "statusTrace" : "    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\task2.js:23:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginFailure"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be05e9fb29f922da.json",
+  "parameterValues" : [ "chrome" ]
+}

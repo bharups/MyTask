@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591416513240' stop='1591416517599'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591416513241' status='failed' stop='1591416517597'>
+            <name>Adding to cart and ordering an item</name>
+            <title>Adding to cart and ordering an item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid selector: invalid selector: Unable to locate an element with the xpath expression //*[@class="btn_primary btn_inventory"])[1] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@class="btn_primary btn_inventory"])[1]' is not a valid XPath expression.
+                  (Session info: chrome=83.0.4103.61)</message>
+                <stack-trace>error properties: Object({ statusCode: 400, statusMessage: 'Bad Request' })
+                    at &lt;Jasmine>
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\Task3.js:49:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,386 @@
+{
+  "uid" : "3f11c6638cd052b6",
+  "name" : "Adding to cart and ordering an item",
+  "fullName" : "My Test Suite.Adding to cart and ordering an item",
+  "historyId" : "d80a5e1f6bc65a4d1567583534c66dd7",
+  "time" : {
+    "start" : 1591359344331,
+    "stop" : 1591359350290,
+    "duration" : 5959
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: dopdwn.selectByVisibleText is not a function",
+  "statusTrace" : "    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\Task3.js:24:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering an item"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8bb0662460baade7",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591358893328,
+        "stop" : 1591358905367,
+        "duration" : 12039
+      }
+    }, {
+      "uid" : "70ab522d51c4e753",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591358846550,
+        "stop" : 1591358852371,
+        "duration" : 5821
+      }
+    }, {
+      "uid" : "da613676530fb183",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591358538771,
+        "stop" : 1591358545908,
+        "duration" : 7137
+      }
+    }, {
+      "uid" : "5da6b9ee16ee7b4a",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591358511890,
+        "stop" : 1591358520106,
+        "duration" : 8216
+      }
+    }, {
+      "uid" : "af8e030c95cc93dd",
+      "status" : "failed",
+      "statusDetails" : "TypeError: browser.getElement is not a function",
+      "time" : {
+        "start" : 1591357661894,
+        "stop" : 1591357667858,
+        "duration" : 5964
+      }
+    }, {
+      "uid" : "2644c5f5ee13065",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: broswer is not defined",
+      "time" : {
+        "start" : 1591357619133,
+        "stop" : 1591357626675,
+        "duration" : 7542
+      }
+    }, {
+      "uid" : "891ebfd92daa7f84",
+      "status" : "failed",
+      "statusDetails" : "chrome not reachable: chrome not reachable\n                  (Session info: chrome=83.0.4103.61)",
+      "time" : {
+        "start" : 1591357532908,
+        "stop" : 1591357581320,
+        "duration" : 48412
+      }
+    }, {
+      "uid" : "77cd0dd3fd371dcf",
+      "status" : "failed",
+      "statusDetails" : "TypeError: client.click is not a function",
+      "time" : {
+        "start" : 1591357346572,
+        "stop" : 1591357353332,
+        "duration" : 6760
+      }
+    }, {
+      "uid" : "f912dc824c6082d8",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: client is not defined",
+      "time" : {
+        "start" : 1591357302451,
+        "stop" : 1591357310672,
+        "duration" : 8221
+      }
+    }, {
+      "uid" : "ae7986d4ca469ab5",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: broswer is not defined",
+      "time" : {
+        "start" : 1591357029149,
+        "stop" : 1591357036189,
+        "duration" : 7040
+      }
+    }, {
+      "uid" : "409118b4c32b7c4e",
+      "status" : "failed",
+      "statusDetails" : "TypeError: $(...).selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591356561307,
+        "stop" : 1591356565379,
+        "duration" : 4072
+      }
+    }, {
+      "uid" : "21ab0339baaa9c2c",
+      "status" : "failed",
+      "statusDetails" : "Error: element (\"//input[@id=\"user-name\"]\") still not existing after 5000ms",
+      "time" : {
+        "start" : 1591356495794,
+        "stop" : 1591356507626,
+        "duration" : 11832
+      }
+    }, {
+      "uid" : "e90c1cfefa6e48da",
+      "status" : "failed",
+      "statusDetails" : "TypeError: client.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591356097744,
+        "stop" : 1591356114701,
+        "duration" : 16957
+      }
+    }, {
+      "uid" : "481162e2762e6095",
+      "status" : "failed",
+      "statusDetails" : "TypeError: client.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591355769646,
+        "stop" : 1591355777855,
+        "duration" : 8209
+      }
+    }, {
+      "uid" : "dea3f8b7c2a1f62d",
+      "status" : "failed",
+      "statusDetails" : "Unhandled promise rejection: Error: Required option \"capabilities\" is missing",
+      "time" : {
+        "start" : 1591355720997,
+        "stop" : 1591355721049,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "5ed43d616489dcc",
+      "status" : "failed",
+      "statusDetails" : "TypeError: client.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591355667479,
+        "stop" : 1591355677259,
+        "duration" : 9780
+      }
+    }, {
+      "uid" : "dd3330d57f046185",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: client is not defined",
+      "time" : {
+        "start" : 1591355537807,
+        "stop" : 1591355545438,
+        "duration" : 7631
+      }
+    }, {
+      "uid" : "1b2815970111339f",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591353984686,
+        "stop" : 1591353990339,
+        "duration" : 5653
+      }
+    }, {
+      "uid" : "a4e102593d60cffd",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591353952506,
+        "stop" : 1591353959157,
+        "duration" : 6651
+      }
+    }, {
+      "uid" : "a8f64bd63aaa48cd",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591351471444,
+        "stop" : 1591351478057,
+        "duration" : 6613
+      }
+    }, {
+      "uid" : "54557c202b22e15e",
+      "status" : "failed",
+      "statusDetails" : "TypeError: dopdwn.selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591351306793,
+        "stop" : 1591351312850,
+        "duration" : 6057
+      }
+    }, {
+      "uid" : "7a31d91eb883c66b",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: client is not defined",
+      "time" : {
+        "start" : 1591350953228,
+        "stop" : 1591350959338,
+        "duration" : 6110
+      }
+    }, {
+      "uid" : "f8f0f7b0d3276e90",
+      "status" : "failed",
+      "statusDetails" : "TypeError: $(...).selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591350744608,
+        "stop" : 1591350749964,
+        "duration" : 5356
+      }
+    }, {
+      "uid" : "30fdbff2c057df2e",
+      "status" : "failed",
+      "statusDetails" : "TypeError: browser.$(...).selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591350666619,
+        "stop" : 1591350673644,
+        "duration" : 7025
+      }
+    }, {
+      "uid" : "9acd024064680098",
+      "status" : "failed",
+      "statusDetails" : "TypeError: browser.$(...).selectByVisibleText is not a function",
+      "time" : {
+        "start" : 1591350630392,
+        "stop" : 1591350636277,
+        "duration" : 5885
+      }
+    }, {
+      "uid" : "22d34565ba12c188",
+      "status" : "failed",
+      "statusDetails" : "Error: element (\"//a[text()=\"FINISH\"]\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1591349862343,
+        "stop" : 1591349881965,
+        "duration" : 19622
+      }
+    }, {
+      "uid" : "1752cd12e4272437",
+      "status" : "failed",
+      "statusDetails" : "TypeError: element.getText is not a function",
+      "time" : {
+        "start" : 1591349814053,
+        "stop" : 1591349821562,
+        "duration" : 7509
+      }
+    }, {
+      "uid" : "5756ae93d2167db9",
+      "status" : "failed",
+      "statusDetails" : "TypeError: element.getText is not a function",
+      "time" : {
+        "start" : 1591349732460,
+        "stop" : 1591349737701,
+        "duration" : 5241
+      }
+    }, {
+      "uid" : "ff1c7ef73a8dbac5",
+      "status" : "failed",
+      "statusDetails" : "TypeError: element.getText is not a function",
+      "time" : {
+        "start" : 1591349695410,
+        "stop" : 1591349701534,
+        "duration" : 6124
+      }
+    }, {
+      "uid" : "cab6030f82bdaf44",
+      "status" : "failed",
+      "statusDetails" : "TypeError: element.get is not a function",
+      "time" : {
+        "start" : 1591349658248,
+        "stop" : 1591349665081,
+        "duration" : 6833
+      }
+    }, {
+      "uid" : "11d793779c1fb44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591273362118,
+        "stop" : 1591273390012,
+        "duration" : 27894
+      }
+    }, {
+      "uid" : "a0a3c2fa1429b351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591272354021,
+        "stop" : 1591272378926,
+        "duration" : 24905
+      }
+    }, {
+      "uid" : "e51f76cd49e8c0ae",
+      "status" : "failed",
+      "statusDetails" : "Error: element (\"//a[text()=\"FINISH\"]\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1591272225652,
+        "stop" : 1591272243835,
+        "duration" : 18183
+      }
+    }, {
+      "uid" : "c91c041d19a9689b",
+      "status" : "failed",
+      "statusDetails" : "Error: element (\"//a[text()=\"FINISH\"]\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1591271808192,
+        "stop" : 1591271836706,
+        "duration" : 28514
+      }
+    }, {
+      "uid" : "6a3b08f024de0347",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"//a[text()=\"FINISH\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1591271740683,
+        "stop" : 1591271758584,
+        "duration" : 17901
+      }
+    }, {
+      "uid" : "ff615c82fc3f7b45",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button class=\"btn_primary btn_inventory\">...</button> is not clickable at point (926, 444). Other element would receive the click: <div class=\"bm-overlay\" style=\"position: fixed; z-index: 1000; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); opacity: 1; transition: opacity 0.3s ease 0s;\"></div>\n                  (Session info: chrome=83.0.4103.61)",
+      "time" : {
+        "start" : 1591271447472,
+        "stop" : 1591271457355,
+        "duration" : 9883
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3f11c6638cd052b6.json",
+  "parameterValues" : [ "chrome" ]
+}

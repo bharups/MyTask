@@ -1,10 +1,17 @@
 [
     {
         "username": ["standard_user","problem_user","performance_glitch_user"],
-        "password": ["secret_sauce", "secret_sauce", "secret_sauce"]
+        "password": ["secret_sauce", "secret_sauce", "secret_sauce"],
+        "firstname":["Bharathi","Rajani","Roshni","Poornima"],
+        "lastname":["S","R","G","D"],
+        "postalcode":[56988,567432,678543,876543]
     },
     {
         "username": ["locked_out_user"],
-        "password": ["secret_sauce"]
+        "password": ["secret_sauce"],
+        "firstname":["Ramya"],
+        "lastname":["S"],
+        "postalcode":[56976]
     }
+    
 ]

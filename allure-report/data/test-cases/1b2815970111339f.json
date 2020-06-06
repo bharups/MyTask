@@ -1,0 +1,58 @@
+{
+  "uid" : "1b2815970111339f",
+  "name" : "Adding to cart and ordering an item",
+  "fullName" : "My Test Suite.Adding to cart and ordering an item",
+  "historyId" : "d80a5e1f6bc65a4d1567583534c66dd7",
+  "time" : {
+    "start" : 1591353984686,
+    "stop" : 1591353990339,
+    "duration" : 5653
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: dopdwn.selectByVisibleText is not a function",
+  "statusTrace" : "    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\BharathiS\\Desktop\\MyTask\\My Task\\Task3.js:23:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding to cart and ordering an item"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b2815970111339f.json",
+  "parameterValues" : [ "chrome" ]
+}

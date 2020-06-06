@@ -1,0 +1,174 @@
+{
+  "uid" : "a67db10c1a772b84",
+  "name" : "LoginSuccess",
+  "fullName" : "My Test Suite.LoginSuccess",
+  "historyId" : "a4276bf2874da1e6556ec9373a5287ea",
+  "time" : {
+    "start" : 1591346480262,
+    "stop" : 1591346540276,
+    "duration" : 60014
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+  "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginSuccess"
+  }, {
+    "name" : "package",
+    "value" : "My Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8388afedd7b376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591346240958,
+        "stop" : 1591346264419,
+        "duration" : 23461
+      }
+    }, {
+      "uid" : "92656d5bbad8b87e",
+      "status" : "failed",
+      "statusDetails" : "chrome not reachable: chrome not reachable\n                  (Session info: chrome=83.0.4103.61)",
+      "time" : {
+        "start" : 1591344789094,
+        "stop" : 1591344822103,
+        "duration" : 33009
+      }
+    }, {
+      "uid" : "80ccaf9880b36e5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591261982098,
+        "stop" : 1591262007231,
+        "duration" : 25133
+      }
+    }, {
+      "uid" : "e1a848060b31c6cb",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+      "time" : {
+        "start" : 1591260251351,
+        "stop" : 1591260311358,
+        "duration" : 60007
+      }
+    }, {
+      "uid" : "b62c743c3ca0e5f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591259678153,
+        "stop" : 1591259721312,
+        "duration" : 43159
+      }
+    }, {
+      "uid" : "7dd5871271e074b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591259412109,
+        "stop" : 1591259438884,
+        "duration" : 26775
+      }
+    }, {
+      "uid" : "6dc8227ee4589e1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591255719599,
+        "stop" : 1591255758709,
+        "duration" : 39110
+      }
+    }, {
+      "uid" : "4550fe32422cbf3e",
+      "status" : "failed",
+      "statusDetails" : "TypeError: allurereport.addStep is not a function",
+      "time" : {
+        "start" : 1591254910502,
+        "stop" : 1591254962287,
+        "duration" : 51785
+      }
+    }, {
+      "uid" : "b51d8c750b259f43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591253364304,
+        "stop" : 1591253383287,
+        "duration" : 18983
+      }
+    }, {
+      "uid" : "9e939cf4b4197f98",
+      "status" : "failed",
+      "statusDetails" : "TypeError: allurereport.addStep is not a function",
+      "time" : {
+        "start" : 1591252342361,
+        "stop" : 1591252365522,
+        "duration" : 23161
+      }
+    }, {
+      "uid" : "9e29d7ef46ab4f5d",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: status is not defined",
+      "time" : {
+        "start" : 1591252311641,
+        "stop" : 1591252326550,
+        "duration" : 14909
+      }
+    }, {
+      "uid" : "baed7bd43b7d6e3e",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: status is not defined",
+      "time" : {
+        "start" : 1591252265193,
+        "stop" : 1591252283858,
+        "duration" : 18665
+      }
+    }, {
+      "uid" : "f78486b0ce027b78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591251504016,
+        "stop" : 1591251524774,
+        "duration" : 20758
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a67db10c1a772b84.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -2,14 +2,53 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
+    "name" : "LoginFailure",
+    "uid" : "9059d38edeebce7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1591267556799,
+      "stop" : 1591267560130,
+      "duration" : 3331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
     "name" : "LoginSuccess",
-    "uid" : "7dd5d44e9c60129c",
+    "uid" : "a67db10c1a772b84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1591346480262,
+      "stop" : 1591346540276,
+      "duration" : 60014
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding to cart and ordering an item",
+    "uid" : "3f11c6638cd052b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1591359344331,
+      "stop" : 1591359350290,
+      "duration" : 5959
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding to cart and ordering",
+    "uid" : "fb0828c9e184e0fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1591259678153,
-      "stop" : 1591259721312,
-      "duration" : 43159
+      "start" : 1591362524767,
+      "stop" : 1591362531394,
+      "duration" : 6627
     },
     "flaky" : false,
     "newFailed" : false,
