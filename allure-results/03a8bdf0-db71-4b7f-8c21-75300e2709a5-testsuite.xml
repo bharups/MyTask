@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591629078451' stop='1591629092394'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591629078451' status='passed' stop='1591629092387'>
+            <name>Adding to cart and ordering an item</name>
+            <title>Adding to cart and ordering an item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591629080775' status='passed' stop='1591629080775'>
+                    <name>Launched the application</name>
+                    <title>Launched the application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629081253' status='passed' stop='1591629081253'>
+                    <name>Entered the username</name>
+                    <title>Entered the username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629081728' status='passed' stop='1591629081728'>
+                    <name>Entered the password</name>
+                    <title>Entered the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629085440' status='passed' stop='1591629085440'>
+                    <name>Clicked on submit</name>
+                    <title>Clicked on submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629085716' status='passed' stop='1591629085716'>
+                    <name>Cheapest amount is7.99</name>
+                    <title>Cheapest amount is7.99</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629085793' status='passed' stop='1591629085793'>
+                    <name>cheapest item name Sauce Labs Onesie</name>
+                    <title>cheapest item name Sauce Labs Onesie</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629085832' status='passed' stop='1591629085832'>
+                    <name>Clicked on add to cart</name>
+                    <title>Clicked on add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629086952' status='passed' stop='1591629086952'>
+                    <name>clicked on My cart</name>
+                    <title>clicked on My cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591629087049' status='passed' stop='1591629087049'>
+                    <name>Verified the item name</name>
+                    <title>Verified the item name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

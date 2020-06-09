@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591704632046' stop='1591704632054'>
+    <name>My Test Suite</name>
+    <title>My Test Suite</title>
+    <test-cases>
+        <test-case start='1591704632047' status='failed' stop='1591704632053'>
+            <name>Adding to cart and ordering an item</name>
+            <title>Adding to cart and ordering an item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: ml is not defined</message>
+                <stack-trace>    at &lt;Jasmine>
+                    at PasswordEncryption.EncryptPassword (C:\Users\BharathiS\Desktop\MyTask\My Task\PasswordEncrypt.js:10:29)
+                    at UserContext.&lt;anonymous> (C:\Users\BharathiS\Desktop\MyTask\My Task\Encryptiontest.js:7:46)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

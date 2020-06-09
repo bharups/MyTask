@@ -5,25 +5,28 @@ describe("My Test Suite", () => {
         
         //launh the URl
         await browser.url("https://www.saucedemo.com/");
+        allurereport.addStep('Launched the application');
         const data=require('./Logindata.json');                //To get the data from JSON file
         
            
             var element=await browser.$('//input[@id="user-name"]');      // find the username field
             await element.waitForExist({timeout:5000});                     //wait for 5 secs for the element to appear
-            await element.setValue(data[0].username[0]);                     // Set the username filed with value
+            await element.setValue(data[0].username[0]);
+            allurereport.addStep('Entered the username');                     // Set the username filed with value
              element=await browser.$('//input[@id="password"]');          // find the password filed
             await element.waitForExist({timeout:5000});
-            await element.setValue(data[0].password[0]);                     //Set the password field with value
+            await element.setValue(data[0].password[0]); 
+            allurereport.addStep('Entered the password');                    //Set the password field with value
              element=await browser.$('//input[@type="submit"]');          // find the subit button
             await element.waitForExist({timeout:5000});
             await element.click();
+            allurereport.addStep('Clicked on submit');
             var all=[];
             element=await browser.$$('//*[@class="inventory_item_price"]');
             const No_of_Prod=element.length;
             
             console.log(No_of_Prod);
             var prodCost;
-            var min=Infinity;
             var text;
             for(var i=0;i<No_of_Prod;i++){
                  text=await element[i].getText();
@@ -53,22 +56,28 @@ describe("My Test Suite", () => {
               var prodIndex=minIndex+1;
               var cheapestamount=all[minIndex].toString();
               console.log('Cheapest amount is'+cheapestamount);
+              allurereport.addStep('Cheapest amount is'+cheapestamount);
               element= await browser.$('(//*[@class="inventory_item_name"])['+prodIndex+']');
               text= await element.getText();
               var cheapestItemName=text;
-              console.log('cheapest item name '+cheapestItemName)
+              console.log('cheapest item name '+cheapestItemName);
+              allurereport.addStep('cheapest item name '+cheapestItemName);
               element=await browser.$('(//*[@class="btn_primary btn_inventory"])['+prodIndex+']');
               element.click();
+              allurereport.addStep('Clicked on add to cart');
             //var element=await browser.$("(//button[text()='ADD TO CART'])[1]");
            // await element.click();
             var element=await browser.$("//div[@id='shopping_cart_container']//a");
             await element.click();
+            allurereport.addStep('clicked on My cart');
             element= await browser.$('//*[@class="inventory_item_name"]');
             text= await element.getText();
             expect(text).toBe(cheapestItemName);
+            allurereport.addStep('Verified the item name');
             element= await browser.$('//*[@class="inventory_item_price"]');
             text= await element.getText();
-            
+            expect(text).toBe(cheapestamount);
+
             var element=await browser.$('//a[text()="CHECKOUT"]');
             await element.click();
             var element=await browser.$('//input[@id="first-name"]');
